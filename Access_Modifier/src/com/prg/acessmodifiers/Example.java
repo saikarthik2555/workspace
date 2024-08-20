@@ -1,0 +1,15 @@
+package com.prg.acessmodifiers;
+
+public class Example {
+	private int a=12;
+			int  b=14;
+	public  int c=18;
+	protected int d=19;
+	public static void main(String[] args) {
+		Example e=new Example();
+		System.out.println(e.a);
+		System.out.println(e.b);
+		System.out.println(e.c);
+		System.out.println(e.d);
+	}
+}
